@@ -51,7 +51,7 @@ On vérifie ensuite que le port 22 est ouvert. La commande `netstat` montre `ssh
 netstat -anp | grep -w 22
 ```
 
-![Port 22 en écoute_](./captures/images-ssh/IMAG3.jpg)
+![Port 22 en écoute_](./captures/images-ssh/IMAGE3.jpg)
 _Figure 3 : Port 22 en écoute_
 
 L'adresse IP du serveur est obtenue avec la commande `hostname -I`. Celle utilisée pour la liaison avec le client est `192.168.56.20` (l'adresse `10.0.2.4` correspond à l'interface NAT de la machine virtuelle).
